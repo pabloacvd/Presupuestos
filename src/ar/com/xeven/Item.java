@@ -11,6 +11,9 @@ Cada producto tiene una cantidad, un precio unitario, un nombre y una descripci�
 Cada servicio tiene un costo por hora y una cantidad de horas. Además del nombre del servicio, el nombre de la persona que lo ejecuta y una descripción.
 
 Una vez que el presupuesto está listo (el usuario decide finalizar), mostrar el presupuesto total y el detalle de todos los ítems agregados.
+
+Los usuarios hacen fila para pedir presupuestos y esos presupuestos al final del día se muestran en el orden de llegada.
+
  */
 public interface Item {
     // todos los msjs comunes entre los productos y servicios
